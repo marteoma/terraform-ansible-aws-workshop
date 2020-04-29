@@ -11,7 +11,7 @@
     - app
     
   vars:
-    wp_mysql_db: terraformansible01
+    wp_mysql_db: terraformansible03
     wp_mysql_user: admindb
     wp_mysql_password: a1s2d3f4
     wp_mysql_host: '{{ db_endpoint }}'
