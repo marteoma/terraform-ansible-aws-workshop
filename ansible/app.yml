@@ -3,7 +3,7 @@
 # Playbook for app server
 
 - name: app server
-  hosts: tag_Name_App01 #ec2.py dynamic tag tag_KEY_VALUE
+  hosts: tag_Name_App03 #ec2.py dynamic tag tag_KEY_VALUE
   become: yes
   gather_facts: no
 
